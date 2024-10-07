@@ -1,4 +1,4 @@
-# Knowledge Graph Builder
+# Multi Source Knowledge Graph Builder with LLM
 
 ## Overview
 
@@ -8,7 +8,7 @@ The system is designed to run as an automated pipeline using Apache Airflow, all
 
 ## System Architecture
 
-![System Architecture](system_architecture.png)
+![System Architecture](system_architecture)
 
 The above diagram illustrates the overall architecture of the Knowledge Graph Builder system, showcasing the flow of data from various sources through different processing stages to the final knowledge graph storage.
 
