@@ -1,0 +1,26 @@
+
+neo4j:
+  uri: "bolt://localhost:7687"
+  user: "neo4j"
+  password: "password"
+
+sources:
+  - name: "wikipedia"
+    url: "https://en.wikipedia.org/wiki/"
+    reliability_score: 0.8
+  - name: "news_api"
+    url: "https://newsapi.org/v2/"
+    api_key: "your_api_key"
+    reliability_score: 0.9
+
+llm:
+  model: "gpt-3.5-turbo"
+  temperature: 0.3
+  max_tokens: 150
+
+entity_types:
+  - PERSON
+  - ORGANIZATION
+  - LOCATION
+  - EVENT
+  - PRODUCT
